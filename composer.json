@@ -1,0 +1,17 @@
+{
+    "name": "pbg/socket-client",
+    "description": "Tiny wrapper around socket functions.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Bogdan",
+            "email": "ppbogdan@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": { "Pbg": "src/"}
+    }
+}
