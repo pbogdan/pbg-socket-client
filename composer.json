@@ -9,9 +9,8 @@
         }
     ],
     "require": {
-
     },
     "autoload": {
-        "psr-0": { "Pbg": "src/"}
+        "psr-0": { "Pbg\\Socket\\": "src/" }
     }
 }
