@@ -52,7 +52,7 @@ class Client
             $this->connect();
         }
 
-        $r = @socket_send(
+        $r = socket_write(
             $this->socket,
             $buffer,
             strlen($buffer)
