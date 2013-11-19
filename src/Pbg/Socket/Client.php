@@ -41,7 +41,7 @@ class Client
             $port
         );
 
-        if ($r === false && $this->getSocketProtocol() !== "udp") {
+        if ($r === false) {
             $this->throwSocketException();
         }
     }
